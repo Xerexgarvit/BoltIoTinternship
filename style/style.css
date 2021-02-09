@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .topnav a {
+    float: right;
+    display: block;
+    color: #0a0a0a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight:bold;
+    font-size:x-large;
+  }
+
+  .topnav img{
+      padding-top: 5px;
+  }
+
+  .section{
+    color: #000000;
+    overflow: hidden;
+    height: 43vh;
+    width: 100%;
+    text-align:center;
+    padding-top: 25vh;
+    background-repeat: no-repeat;
+  }
+
+  .about{
+    text-align: center;
+  }
+  .about .abouth{
+    margin-top: 15vh;
+    color:#139139;
+    font-size:x-large;
+  }
+.about .row {
+  display: inline-flex;
+  margin-top: 4vh;
+}
+.about .row .col1{
+  margin-right: 3vh;
+  text-align: left;
+  font-size:small;
+}
+.about .row .col2{
+  text-align: left;
+  font-size:small
+}
+.about .row img{
+  width:80vh;
+  height:50vh;
+}
+.about .row .aboutt{
+  text-align: left;
+  font-size: large;
+  font-weight:bold;
+  color:black;
+  padding-top: 2vh;
+}
+
+.award{
+  text-align: center;
+}
+.award .awardh{
+  margin-top:15vh;
+  color:#139139;
+  font-size: x-large;
+}
+.award .row {
+display: inline-flex;
+margin-top: 0;
+}
+.award .row .col1{
+margin-right: 3vh;
+}
+.award .row img{
+width:40vh;
+height:33vh;
+}
+.award .row .awardt{
+  font-size:large;
+text-align: center;
+font-weight:bold;
+color:black;
+}
+
+.git{
+  text-align: center;
+}
+.git .gith{
+  margin-top:15vh;
+  color:#139139;
+  font-size: x-large;
+}
+.git .row {
+display: inline-flex;
+margin-top: 0;
+}
+.git .row .col1{
+margin-right: 10vh;
+width: 80vh;
+height: 100vh;
+}
+.git .row .col2{
+  width: 80vh;
+  padding-top: 2vh;
+}
+.git .row .gitt{
+  text-align:left;
+}
+.git .row .gitt .txt{
+text-align: left;
+font-weight:bold;
+color:black;
+}
+.git .row .gitt2{
+padding-top: 3vh;
+}
+
+.footer{
+  margin-bottom: 0;
+  margin-top: 7vh;
+  height: 15vh;
+  background-color:#139139;
+}
+.footer .row{
+  display: inline-flex;
+  margin-left: 20vh;
+}
+.footer .row .col1{
+  text-align:center;
+  padding-left: 20vh;
+  padding-top: 7vh;
+}
+.footer .row .col2{
+  align-content: center;
+  margin-left:60vh;
+  padding-top:7vh;
+}
+.footer .row .col3{
+  align-content: center;
+  margin-left:60vh;
+  padding-top:5vh;
+  font-size: x-large;
+}
+.footer .row .col3 a{
+  color:#000000;
+}
