@@ -1,2 +1,2 @@
 # BoltIoTinternship
-internship project in Bolt IoT
+internship project at Bolt IoT
